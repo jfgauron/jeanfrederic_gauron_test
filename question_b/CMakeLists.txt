@@ -7,7 +7,7 @@ set(CMAKE_BUILD_TYPE Debug)
 
 set(TEST_SOURCES
     test/main.cc
-    test/test_version_cmp.cc
+    test/test_version.cc
 )
 
 add_executable(tests ${TEST_SOURCES})

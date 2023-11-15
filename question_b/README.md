@@ -8,7 +8,6 @@ The goal of this question is to write a software library that accepts 2 version 
 The question is somewhat vague about what kind of version string the library is expected to support, so we will assume they will be similar in some ways to those outlined in [Semantic Versioning 2.0.0](https://semver.org/).
 
 
-
 Here is a list of tests cases that will be interesting to validate:
 
 ```
@@ -36,4 +35,5 @@ Here is a list of tests cases that will be interesting to validate:
 
 # When versions have build metadata, it should be ignored
 1.0.0+exp.sha51 == 1.0.0+xyz
+
 ```
