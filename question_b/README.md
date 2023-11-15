@@ -37,3 +37,16 @@ Here is a list of tests cases that will be interesting to validate:
 1.0.0+exp.sha51 == 1.0.0+xyz
 
 ```
+
+- [version.h](https://github.com/jfgauron/jeanfrederic_gauron_test/blob/main/question_b/src/version.h)
+
+- [test_version.cc](https://github.com/jfgauron/jeanfrederic_gauron_test/blob/main/question_b/test/test_version.cc)
+
+
+## Build and test
+```
+cmake -Bbuild
+cd build
+make
+make test
+```
