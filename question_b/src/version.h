@@ -34,6 +34,9 @@ public:
 
         // core versions
         core_versions_ = split(str_.substr(0, end), ".");
+        while (core_versions_.size() < 3) {
+            core_versions_.push_back("0");
+        }
 
         // major
         pos = std::min(end, str_.find(".", start));
